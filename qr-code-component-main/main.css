@@ -1,0 +1,64 @@
+body {
+    font-family: "Outfit", sans-serif;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.project-description h1, .project-description p {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin: 21px 21px 15px 21px;
+}
+
+.project-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.project-description h1 {
+    font-weight: 700;
+    font-size: 22px;
+    color: hsl(218, 44%, 22%);
+}
+
+.project-description p {
+    color:hsl(220, 15%, 55%);
+    margin-top: 0;
+}
+
+.instructions {
+    font-size: 15px;
+}
+
+.project-description img {
+    border-radius: 15px;
+}
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+ .attribution p{
+    margin: 2px auto;
+ }
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media screen and (max-width: 375px) {
+    .project-description {
+        width: 80%;
+    }
+}
