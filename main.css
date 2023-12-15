@@ -4,10 +4,8 @@ body {
 }
 
 .project-description h1, .project-description p {
-    display: inline-flex;
-    justify-content: center;
     text-align: center;
-    margin: 21px 21px 15px 21px;
+    margin: 21px 25px 15px 25px;
 }
 
 .project-description {
@@ -21,7 +19,6 @@ body {
     transform: translate(-50%, -50%);
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
-    padding: 15px;
 }
 
 .project-description h1 {
@@ -33,6 +30,7 @@ body {
 .project-description p {
     color:hsl(220, 15%, 55%);
     margin-top: 0;
+    margin-bottom: 40px;
 }
 
 .instructions {
@@ -41,20 +39,7 @@ body {
 
 .project-description img {
     border-radius: 15px;
-}
-
-.attribution{
-    font-size: 11px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-}
- .attribution p{
-    margin: 2px auto;
- }
-
-.attribution a { 
-    color: hsl(228, 45%, 44%); 
+    margin: 15px 15px 0 15px;
 }
 
 @media screen and (max-width: 375px) {
